@@ -6,7 +6,7 @@ interface Props {
   datos: index;
 }
 
-export default function ProyeccionMensualPage({ datos }: Props) {
+export default function MonthlyPage({ datos }: Props) {
   return (
     <div>
       <h2 className="text-2xl font-bold text-slate-800 mb-4 text-center">Proyección Mensual</h2>
