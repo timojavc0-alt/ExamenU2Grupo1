@@ -1,5 +1,3 @@
-// src/presentation/pages/FormularioPage.tsx
-
 import type { index } from "../interfaces";
 
 interface Props {
