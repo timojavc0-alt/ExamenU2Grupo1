@@ -3,8 +3,6 @@ export interface SimulationData {
   rate: number;
   years: number;
 }
-
-// Formateador exclusivo para Lempiras
 export const formatMoney = (amount: number) => {
   return new Intl.NumberFormat('es-HN', { style: 'currency', currency: 'HNL' }).format(amount);
 };
