@@ -4,7 +4,7 @@ interface Props {
   datos: index;
 }
 
-export default function ProyeccionAnualPage({ datos }: Props) {
+export default function AnnualPage({ datos }: Props) {
   return (
     <div>
       <h2 className="text-2xl font-bold text-slate-800 mb-4 text-center">Proyección Anual</h2>
