@@ -12,7 +12,7 @@ export default function FormPage({ datos, setDatos }: Props) {
 
   return (
     <div className="flex flex-col items-center w-full">
-      <h2 className="text-2xl font-bold text-white mb-6">Simulador de Ahorros</h2>
+      <h2 className="text-2xl font-bold text-slate-800 mb-6">Simulador de Ahorros</h2>
 
       <form onSubmit={handleSubmit} className="w-full max-w-lg p-6 border border-slate-700 rounded-xl bg-slate-800 shadow-xl">
         <div className="space-y-4">
