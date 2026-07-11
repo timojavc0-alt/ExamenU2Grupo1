@@ -16,7 +16,6 @@ export default function FormPage({ datos, setDatos }: Props) {
 
       <form onSubmit={handleSubmit} className="w-full max-w-lg p-6 border border-slate-700 rounded-xl bg-slate-800 shadow-xl">
         <div className="space-y-4">
-          {/* Input Reutilizable - Esto podría ser otro componente si quisieras ser aún más extremo */}
           {["deposit", "rate", "years"].map((field) => (
             <div key={field}>
               <label className="block text-sm font-medium text-slate-300 mb-1 capitalize">
